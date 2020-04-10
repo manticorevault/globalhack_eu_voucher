@@ -1,0 +1,183 @@
+#body {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Montserrat', sans-serif;
+    background: #e5e5e5;
+    color: #25282B;
+    margin: 0;
+}
+
+#container {
+    display: flex;
+    width: 90%;
+    max-width: 980px;
+    margin-top: 50px;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
+#intro {
+    width: 300px;
+
+}
+
+#logo-global {
+    max-width: 100px;
+
+}
+
+#main {
+    margin: 32px, 100px, 0 0 ;
+}
+
+#buttons {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    margin: 32px;
+}
+
+button {
+    outline: none;
+}
+
+button:hover {
+    text-decoration: underline;
+}
+
+.button-thin {
+    color: #ff5E84;
+    border: none;
+    font-weight: bold;
+    background: none;
+    cursor: pointer;
+
+}
+
+.fat {
+    color: white;
+    background: #ff5E84;
+    width: 150px;
+    height: 40px;
+    border-radius: 6px;
+    box-shadow: 0px 8px #ff5E8412
+
+}
+
+button.fat:hover {
+    text-decoration: none;
+}
+
+.restaurant {
+    display: flex;
+    margin-bottom: 30px;
+    background-color: #fff;
+    box-shadow: 0 4px 16px -8px rgba(1, 1, 1, 0.1);
+    border-radius: 8px;
+    padding: 15px;
+
+}
+
+.restaurant img {
+    max-height: 150px;
+    margin: 20px;
+}
+
+.restaurant h3 {
+    margin: 0;
+
+}
+
+.restaurant p {
+    margin: 8px 0;
+    color: #777
+
+}
+
+.description {
+    margin-bottom: 10px;
+
+}
+
+/* Modal styles */
+
+#modal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: #ff5E84;
+
+    position: absolute;
+    margin-top: 0;
+    width: 80vw;
+    height: 80vh;
+
+}
+
+#modal .content {
+    margin-top: 15px;
+    color: white;
+
+}
+
+#modal .h1 {
+    text-align: center;
+    text-transform: uppercase;
+
+}
+
+#modal form {
+    width: 80%;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.input-wrapper {
+    margin: 10px;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 12px;
+    border-radius: 6px;
+    border: 1px solid rgba(141, 25, 52, 0.5);
+
+    outline: none;
+
+    font-size: 16px;
+
+}
+
+form label {
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0.7px;
+
+}
+
+form button {
+    background: white;
+    width: 150px;
+    height: 40px;
+    border-radius: 6px;
+    cursor: pointer;
+
+}
+
+form button:hover {
+    background-color: #0984E3;
+    color: white;
+    text-decoration: none;
+
+}
+
+#modal.hide {
+    display: none;
+}
+
+#modal.button {
+    text-decoration: none;
+}
