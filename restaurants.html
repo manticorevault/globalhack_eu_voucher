@@ -1,0 +1,113 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <title>Restaurants - GLOBAL HACK </title>
+
+     <link rel="stylesheet" href="styles.css">
+     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700;900&display=swap" rel="stylesheet">
+ </head>
+ <body id="body-restaurants">
+    
+    <div id="container">
+        <header>
+            <img src="logo.png" id="logo-global" alt="Logo" />
+            <nav>
+                <li><a href="index.html"> Home </a></li>
+                <li><a href="#"> Restaurants </a></li>
+                <li><a href="#" onclick="onOff()"> +Add Restaurant </a></li>
+            </nav>
+         </header>
+    
+         <section id="title">
+            <p> In your area </p>
+            <h1> Restaurants </h1>
+         </section>
+    
+         <main>
+            <section id="restaurants">
+                <div class="restaurant">
+                    <img src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/84144459065855.5a140a9fe88cf.jpg" alt="" />
+    
+                    <div class="content">
+                        <h3> Restaurant 1 </h3>
+                        <p> Belgium </p>
+                        <p> Brussels </p>
+                        <div class="description">
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis, id. Error non quasi veniam laboriosam suscipit, quis necessitatibus explicabo assumenda veritatis, porro expedita fugit, enim excepturi corrupti consequuntur animi. Neque?
+                        </div>
+                        <a href="#"> Help this Restaurant</a>
+                    </div>
+                </div>
+    
+                <div class="restaurant">
+                    <img src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/84144459065855.5a140a9fe88cf.jpg" alt="" />
+    
+                    <div class="content">
+                        <h3> Restaurant 2 </h3>
+                        <p> Germany </p>
+                        <p> Dortmund </p>
+                        <div class="description">
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis, id. Error non quasi veniam laboriosam suscipit, quis necessitatibus explicabo assumenda veritatis, porro expedita fugit, enim excepturi corrupti consequuntur animi. Neque?
+                        </div>
+                        <a href="#"> Help this Restaurant</a>
+                    </div>
+                </div>
+    
+                <div class="restaurant">
+                    <img src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/84144459065855.5a140a9fe88cf.jpg" alt="" />
+    
+                    <div class="content">
+                        <h3> Restaurant 1 </h3>
+                        <p> Italy </p>
+                        <p> Milan </p>
+                        <div class="description">
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis, id. Error non quasi veniam laboriosam suscipit, quis necessitatibus explicabo assumenda veritatis, porro expedita fugit, enim excepturi corrupti consequuntur animi. Neque?
+                        </div>
+                        <a href="#"> Help this Restaurant</a>
+                    </div>
+                </div>
+    
+            </section>
+         </main>
+    </div>
+     
+     <!--  MODAL -->
+     <div id="modal" class="hide">
+        <div class="content">
+            <h1> New Restaurant </h1>
+
+            <form action="">
+                
+                <div class="input-wrapper">
+                    <!-- Maybe add the Place Autocomplete from Google Maps API here -->
+                    <label for="title"> Restaurant name: </label>
+                    <input type="text" name="title"> 
+                </div>
+
+                <div class="input-wrapper">
+                    <label for="country"> Country: </label>
+                    <input type="text" name="country"> 
+                </div>
+
+                <div class="input-wrapper">
+                    <label for="city"> City: </label>
+                    <input type="text" name="description"> 
+                </div>
+
+                <div class="input-wrapper">
+                    <label for="description"> Description: </label>
+                    <textarea name="description" cols="30" rows="10"></textarea>
+                </div>
+
+                <a href="#" onclick="onOff()"> Back </a>
+                <button> Done </button>
+
+            </form>
+        </div>
+
+    </div>
+
+    <script src="scripts.js"> </script>
+ </body>
+ </html>

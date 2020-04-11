@@ -60,12 +60,15 @@ button:hover {
     background: #ff5E84;
     width: 150px;
     height: 40px;
+    text-decoration: none;
+    font-size: 13px;
+    padding-top: 5px;
     border-radius: 6px;
     box-shadow: 0px 8px #ff5E8412
 
 }
 
-button.fat:hover {
+.fat:hover {
     text-decoration: none;
 }
 
@@ -134,6 +137,16 @@ button.fat:hover {
     margin: 0 auto;
 }
 
+#modal a {
+    margin-top: 5px;
+    background-color: red;
+    color: white;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    text-transform: uppercase;
+
+}
+
 .input-wrapper {
     margin: 10px;
 }
@@ -180,4 +193,29 @@ form button:hover {
 
 #modal.button {
     text-decoration: none;
+}
+
+/* RESTAURANTS.HTML */
+
+#body-restaurants {
+    display: block;
+    justify-content: space-between;
+    font-family: 'Montserrat', sans-serif;
+    background: #e5e5e5;
+    color: #25282B;
+    margin: 0;
+}
+
+#modal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: #ff5E84;
+
+    position: absolute;
+    margin-top: 0;
+    width: 80vw;
+    height: 80vh;
+
 }
