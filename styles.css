@@ -19,6 +19,7 @@
 
 #intro {
     width: 300px;
+    margin-right: 5%;
 
 }
 
@@ -82,6 +83,11 @@ button:hover {
 
 }
 
+.restaurant:hover {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,.2), 0 6px 20px 0 rgba(0,0,0,.19);
+
+}
+
 .restaurant img {
     max-height: 150px;
     margin: 20px;
@@ -97,6 +103,12 @@ button:hover {
     color: #777
 
 }
+
+.restaurant a {
+    text-decoration: none;
+}
+
+
 
 .description {
     margin-bottom: 10px;
